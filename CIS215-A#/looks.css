@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url('assets/newbackground.jpeg');
+    background-size: cover;
+    background-repeat: repeat; 
+    color: #fff; 
+}
+
+h1 {
+    text-align: center; 
+}
+
+form {
+    width: 80%; 
+    max-width: 300px;
+    margin: auto;
+}
+
+input, button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%; 
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    color: #fff; 
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #000; 
+    color: #fff; 
+}
+
+@media only screen and (max-width: 600px) {
+  
+    form {
+        width: 100%;
+    }
+}
